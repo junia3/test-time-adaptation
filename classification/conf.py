@@ -294,6 +294,12 @@ _C.TPT.N_CTX = 4                    # Number of tunable context tokens
 _C.TPT.CTX_INIT = "a_photo_of_a"    # Context initialization
 _C.TPT.CLASS_TOKEN_POS = "end"      # Position of the class token. Choose from: [end, middle, front]
 
+# --------------------------------- LAW options ---------------------------- #
+
+_C.LAW = CfgNode()
+
+_C.LAW.TAU = 1.0
+
 # ------------------------------- Source options -------------------------- #
 _C.SOURCE = CfgNode()
 
